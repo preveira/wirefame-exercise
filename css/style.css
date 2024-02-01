@@ -1,18 +1,38 @@
+body {
+    margin: 0;
+    padding:0;
+}
 #navbar-container {
     display: flex;
     background-color: rgb(50, 51, 51);
     border: lightgreen solid;
     text-align: center;
-    justify-content: space-evenly;
+    justify-content: left;
     align-items: center;
     width: 100%;
-    padding: 2px 40px;
+    padding: 2px 195px;
+    margin: 0;
+}
+#nav-items-container {
+    border: lightblue solid;
 }
 .nav-item {
     display: inline-block;
     color: white;
     text-decoration: none;
-    margin-left: 20px;
+    margin-right: 80px;
     border: red solid;
-    align-items: left;
+}
+#logo {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#nav-div {
+    border: solid orange;
+    display: flex;
+    margin-left: 40px;
+}
+#hero-container {
+    display: flex;
+    justify-content: center;
 }
